@@ -6,25 +6,21 @@
 }
 
 body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
-    height: 100vh;
-    width: 100vw;
-    min-width: 375px;
-    max-width: 1440px;
 }
 
 #container {
+    height: 550px;
     width: 350px;
     text-align: center;
     background-color: hsl(0, 0%, 100%);
     border-radius: 35px;
     border: 10px solid hsl(212, 45%, 89%);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -275px;
-    margin-left: -186px;
     padding-top: 3px;
 }
 
